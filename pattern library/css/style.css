@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	
 }
 
 body {font-family: Arial, sans-serif;}
@@ -31,11 +30,7 @@ h1 {padding: 20px; text-align: center; font-size: 2em;}
 /* Styles Mobile - > 750px - */
 
 @media (max-width: 750px) {
-    #buttons {
-		padding-top: 400px;
-	    display: block;
-	   
-}
+   
 	#navtop label,
 	#navtop input {display: block;}
 
@@ -72,8 +67,18 @@ h1 {padding: 20px; text-align: center; font-size: 2em;}
 
 	#touch {position: absolute; opacity: 0; height: 0px;}    	/* Checkbox invisble */
 	
-	#touch:checked + .slide {height: 300px;} /* Onclick : hauteur à définir en fonction du nombre de liens */ 
-	
+	#touch:checked + .slide {height: 420px;} /* Onclick : hauteur à définir en fonction du nombre de liens */ 
+	/*Buttons*/
+	 #buttons {
+		padding-top: 430px;
+	    display: block;
+        }
+        /*jumbotron*/
+      #jumbopad{
+		padding-top: 320px;
+	   
+        }
+        
 }
 
 /*Buttons*/
@@ -88,6 +93,7 @@ h1 {padding: 20px; text-align: center; font-size: 2em;}
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+   
 }
 
 .button2 {
@@ -153,10 +159,10 @@ h1 {padding: 20px; text-align: center; font-size: 2em;}
 }
 
 
-
+ 
 #jumbo1 {
-	background: url('https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg') center center no-repeat;
-	height: 400px;
+	background: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fe27841e0f0f2922406eb0df58430433&auto=format&fit=crop&w=793&q=80') center center no-repeat;
+	height: 330px;
 	background-size: cover;
 	text-align: center;
 	margin: 0;
@@ -165,8 +171,7 @@ h1 {padding: 20px; text-align: center; font-size: 2em;}
 
 #jumbo1 h1 {
 	color: white;
-	font-family: 'Oswald', sans-serif;
-	font-size: 75px;
+	font-size: 60px;
 	font-weight: 700;
 	margin-top: 105px;
 	text-transform: uppercase;
@@ -203,4 +208,7 @@ h1 {padding: 20px; text-align: center; font-size: 2em;}
 	color: black;
 	background: #ffa800;
 }
+
+
+
 
