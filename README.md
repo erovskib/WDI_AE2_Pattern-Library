@@ -27,25 +27,25 @@ Pattern-Library
 *Description goes here*
 
 <div>
-    <nav id="navtop">
-
-                	<label for="touch"><span>Menu</span></label>               
-                	<input type="checkbox" id="touch"> 
-                
-                    	<ul class="slide">
-                    		<li><a href="#">Header Element</a></li>
-                    		<li><a href="#">Button Types</a></li>
-                    		<li><a href="#">Jumbotron</a></li>
-                    		<li><a href="#">Footer</a></li></li>
-                    	</ul>
-                
-                </nav> 
+   
 </div>
 <br />
   
 
     <div>
-        My code goes here
+                  <nav id="navtop">
+
+                	<label for="touch"><span>Menu</span></label>               
+                	<input type="checkbox" id="touch"> 
+                
+                    	<ul class="slide">
+                    		<li><a href="header.html">Header Element</a></li>
+                    		<li><a href="button.html">Button Types</a></li>
+                    		<li><a href="jumbotron.html">Jumbotron</a></li>
+                    		<li><a href="footer.html">Footer</a></li></li>
+                    	</ul>
+                
+                </nav> 
     </div>
     
 
