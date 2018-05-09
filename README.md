@@ -1,6 +1,4 @@
 # WDI_AE2_Pattern-Library
-Pattern-Library
-# My Pattern Library
 
 *My description*
 
@@ -26,15 +24,28 @@ Pattern-Library
 
 *Description goes here*
 
-      <div>
-
-      </div>
+<div>
+    Code goes here to display actual element
+</div>
 <br />
+  
 
-            <div>         
-               
-            </div>
+    <div>
+        <nav id="navtop">
 
+                	<label for="touch"><span>Menu</span></label>               
+                	<input type="checkbox" id="touch"> 
+                
+                    	<ul class="slide">
+                    		<li><a href="header.html">Header Element</a></li>
+                    		<li><a href="button.html">Button Types</a></li>
+                    		<li><a href="jumbotron.html">Jumbotron</a></li>
+                    		<li><a href="footer.html">Footer</a></li></li>
+                    	</ul>
+                
+                </nav> 
+    </div>
+    
 
 **[⬆ back to top](#table-of-contents)**
 
