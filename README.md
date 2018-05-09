@@ -27,7 +27,19 @@ Pattern-Library
 *Description goes here*
 
 <div>
-    Code goes here to display actual element
+    <nav id="navtop">
+
+                	<label for="touch"><span>Menu</span></label>               
+                	<input type="checkbox" id="touch"> 
+                
+                    	<ul class="slide">
+                    		<li><a href="#">Header Element</a></li>
+                    		<li><a href="#">Button Types</a></li>
+                    		<li><a href="#">Jumbotron</a></li>
+                    		<li><a href="#">Footer</a></li></li>
+                    	</ul>
+                
+                </nav> 
 </div>
 <br />
   
