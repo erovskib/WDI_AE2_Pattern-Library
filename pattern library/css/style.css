@@ -1,10 +1,13 @@
 * {
 	box-sizing: border-box;
+
 }
 
-body {font-family: Arial, sans-serif;}
+body {font-family: Arial, sans-serif; height: 1200px;
+  margin: 0;}
 a {text-decoration : none;}
-h1 {padding: 20px; text-align: center; font-size: 2em;}
+h1 { text-align: center; font-size: 2em; padding-top: 25px;}
+
 
 #navtop {
 	width: 100%;
@@ -71,13 +74,9 @@ h1 {padding: 20px; text-align: center; font-size: 2em;}
 	/*Buttons*/
 	 #buttons {
 		padding-top: 430px;
-	    display: block;
+	
         }
-        /*jumbotron*/
-      #jumbopad{
-		padding-top: 320px;
-	   
-        }
+      
         
 }
 
@@ -208,6 +207,20 @@ h1 {padding: 20px; text-align: center; font-size: 2em;}
 	color: black;
 	background: #ffa800;
 }
+
+
+
+header{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  height: 120px;
+  background: #9FF98A;
+  color: #fff;
+  display: block;
+}
+  
 
 
 
