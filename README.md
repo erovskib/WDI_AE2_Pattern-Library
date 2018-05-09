@@ -26,28 +26,15 @@ Pattern-Library
 
 *Description goes here*
 
-<div>
-   
-</div>
+      <div>
+
+      </div>
 <br />
-  
 
-    <div>
-                  <nav id="navtop">
+            <div>         
+               
+            </div>
 
-                	<label for="touch"><span>Menu</span></label>               
-                	<input type="checkbox" id="touch"> 
-                
-                    	<ul class="slide">
-                    		<li><a href="header.html">Header Element</a></li>
-                    		<li><a href="button.html">Button Types</a></li>
-                    		<li><a href="jumbotron.html">Jumbotron</a></li>
-                    		<li><a href="footer.html">Footer</a></li></li>
-                    	</ul>
-                
-                </nav> 
-    </div>
-    
 
 **[⬆ back to top](#table-of-contents)**
 
