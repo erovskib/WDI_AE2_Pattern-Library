@@ -6,8 +6,8 @@
 body {font-family: Arial, sans-serif; height: 1200px;
   margin: 0;}
 a {text-decoration : none;}
-h1 { text-align: center; font-size: 2em; padding-top: 25px;}
-
+h1 { text-align: center; font-size: 2em; padding-top: 20px;}
+h3 {color: white;}
 
 #navtop {
 	width: 100%;
@@ -76,6 +76,7 @@ h1 { text-align: center; font-size: 2em; padding-top: 25px;}
 		padding-top: 430px;
 	
         }
+        
       
         
 }
@@ -83,10 +84,10 @@ h1 { text-align: center; font-size: 2em; padding-top: 25px;}
 /*Buttons*/
 
 .button1 {
-    background-color: #4CAF50; /* Green */
+    background-color: #555555; /* Green */
     border: none;
     color: white;
-    padding: 10px 30px;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -96,7 +97,7 @@ h1 { text-align: center; font-size: 2em; padding-top: 25px;}
 }
 
 .button2 {
-    background-color: #4CAF50; /* Green */
+    background-color: #555555; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -105,22 +106,32 @@ h1 { text-align: center; font-size: 2em; padding-top: 25px;}
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+}
+.disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
 }
 
 .button3 {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    border-radius: 30px;
+}
+
+.button3:hover {
+    background-color: #555555;
+    color: white;
 }
 
 .button4 {
-    background-color: #4CAF50; /* Green */
+    background-color: #555555; /* black */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -132,7 +143,7 @@ h1 { text-align: center; font-size: 2em; padding-top: 25px;}
 }
 
 .button5 {
-    background-color: #4CAF50; /* Green */
+    background-color: #555555; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -144,7 +155,7 @@ h1 { text-align: center; font-size: 2em; padding-top: 25px;}
 }
 
 .button6 {
-    background-color: #4CAF50; /* Green */
+    background-color: #555555; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -194,15 +205,21 @@ h1 { text-align: center; font-size: 2em; padding-top: 25px;}
 }
 
 .buttonj {
-	font-family: 'Oswald', sans-serif;
-	background: #1c1c1c;
 	color: white;
-	border-radius: 30px;
-	font-size: 18px;
-	padding: 10px 30px;
+    border: 3px solid #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30px;
 
 }
-
+.buttonj:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
 .btnTop:hover {
 	color: black;
 	background: #ffa800;
@@ -221,7 +238,102 @@ header{
   display: block;
 }
   
+  
+
+  
+  
+footer {
+    background-color: #2d2f31;
+    position: relative;
+ 
+}
+
+
+footer > ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 25px 0;
+    position: relative;
+    width: 90%;
+}
+footer > ul li {
+    float: left;
+    padding: 20px 15px;
+    width: 33.3%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+
+footer > ul li .text {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 105px;
+    position: relative;
+    text-align: justify;
+}
+.text h4 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text a {
+    border-bottom: 1px dotted transparent;
+    color: #FFDD00;
+    font-weight: bold;
+}
+.text a:hover {
+    border-color: #FFDD00;
+}
 
 
 
+.links {
+    margin-left: 30px;
+    list-style: none outside none;
+    position: relative;
+ 
+}
+.links li {
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px ;
+}
+.links a {
+    color: white;
+}
+.links a:hover {
+    color: #1a1a1a;
+}
 
+
+@media screen and (max-width: 750px){
+    .links, .social{
+        float:none;
+        text-align:center;
+    }
+    
+    .links li {
+        display:inline-block;
+        float:none;
+    }
+    .bar {
+        position:relative;
+    }
+    
+    
+    footer > ul li {
+        float:none;
+        width:auto;
+    }
+    
+    .links li {
+        margin-right:5px;
+    }
+}
