@@ -21,174 +21,37 @@
 
 
 ## Navigation bar
+https://pattern-library-ae2-bozhidarerovski.c9users.io/pattern%20library/navigation.html
 
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-  
-
-    <div>
-        <nav id="navtop">
-
-                	<label for="touch"><span>Menu</span></label>               
-                	<input type="checkbox" id="touch"> 
-                
-                    	<ul class="slide">
-                    		<li><a href="header.html">Header Element</a></li>
-                    		<li><a href="button.html">Button Types</a></li>
-                    		<li><a href="jumbotron.html">Jumbotron</a></li>
-                    		<li><a href="footer.html">Footer</a></li></li>
-                    	</ul>
-                
-                </nav> 
-    </div>
-    
 
 **[⬆ back to top](#table-of-contents)**
 
 ## Header Element
+https://pattern-library-ae2-bozhidarerovski.c9users.io/pattern%20library/header.html
 
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
 
 **[⬆ back to top](#table-of-contents)**
 
 ## Buttons
+https://pattern-library-ae2-bozhidarerovski.c9users.io/pattern%20library/buttons.html
 
-*Description goes here*
 
-### Button One
-
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
-
-### Button Two
-
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
-
-### Button Three
-
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
-
-### Button Four
-
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
-  
-### Button Five
-
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
-
-### Button Six
-
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
-  
 **[⬆ back to top](#table-of-contents)**
 
 ## Jumbotron
+https://pattern-library-ae2-bozhidarerovski.c9users.io/pattern%20library/jumbotron.html
 
-*Description goes here*
 
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
-  
 **[⬆ back to top](#table-of-contents)**
 
 ## Footer
+https://pattern-library-ae2-bozhidarerovski.c9users.io/pattern%20library/footer.html
 
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
   
 **[⬆ back to top](#table-of-contents)**
 
 ## Other Component
+https://pattern-library-ae2-bozhidarerovski.c9users.io/pattern%20library/other.html
 
-*Description goes here*
-
-<div>
-    Code goes here to display actual element
-</div>
-<br />
-
-    <div>
-        My code goes here
-    </div>
   
 **[⬆ back to top](#table-of-contents)**
