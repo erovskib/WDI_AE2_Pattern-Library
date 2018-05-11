@@ -1,145 +1,178 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Pattern Library </title>
-         <link rel="stylesheet" href="css/style.css" type="text/css" />
-    </head>
-    <body>
-        <div>
-            <h1> Pattern Library </h1>
-            <div>
-                <nav id="navtop">
 
-                    	<label for="touch"><span>Menu</span></label>               
-                    	<input type="checkbox" id="touch"> 
-                
-                    	<ul class="slide">
-                            <li><a href="navigation.html">Navigation</a></li>
-                    		<li><a href="header.html">Header</a></li>
-                    		<li><a href="buttons.html">Button Types</a></li>
-                    		<li><a href="jumbotron.html">Jumbotron</a></li>
-                    		<li><a href="footer.html">Footer</a></li></li>
-                    		<li><a href="other.html">Other</a></li></li>
-                    	</ul>
-                <p>Resize the browser to test the navigation</p>
-               <div>
-                <h2>HTML</h2>
-                        <pre>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pattern Library </title>
+  <link rel="stylesheet" href="css/nav.css" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <h1> Pattern Library </h1>
+    <div>
+      <nav id="navtop">
+
+        <label for="touch"><span>Menu</span></label>
+        <input type="checkbox" id="touch">
+
+        <ul class="slide">
+          <li><a href="navigation.html">Navigation</a></li>
+          <li><a href="header.html">Header</a></li>
+          <li><a href="buttons.html">Button Types</a></li>
+          <li><a href="jumbotron.html">Jumbotron</a></li>
+          <li><a href="footer.html">Footer</a></li>
+          </li>
+          <li><a href="other.html">Other</a></li>
+          </li>
+        </ul>
+
+        <h4>Navigation</h4>
+        <p>The navigation component will be used to navigate the pattern library.</p>
+        <p> The navigation is completly responsive and it breaks down after the browser width becomes less than 750px this can be changed in the css media query. *Resize the browser to see the reponsivness*</p>
+        <div>
+          <h2>HTML</h2>
+          <code>
+          <pre>
 &lt;nav id=&quot;navtop&quot;&gt;
 
-    &lt;label for=&quot;touch&quot;&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/label&gt;               
-	&lt;input type=&quot;checkbox&quot; id=&quot;touch&quot;&gt; 
-   	&lt;ul class=&quot;slide&quot;&gt;
-       &lt;li&gt;&lt;a href=&quot;navigation.html&quot;&gt;Navigation&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt;&lt;a href=&quot;header.html&quot;&gt;Header&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt;&lt;a href=&quot;buttons.html&quot;&gt;Button Types&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt;&lt;a href=&quot;jumbotron.html&quot;&gt;Jumbotron&lt;/a&gt;&lt;/li&gt;
-	   &lt;li&gt;&lt;a href=&quot;footer.html&quot;&gt;Footer&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
-       &lt;li&gt;&lt;a href=&quot;other.html&quot;&gt;Other&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
-	&lt;/ul&gt;
+        &lt;label for=&quot;touch&quot;&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/label&gt;
+        &lt;input type=&quot;checkbox&quot; id=&quot;touch&quot;&gt;
+
+        &lt;ul class=&quot;slide&quot;&gt;
+          &lt;li&gt;&lt;a href=&quot;navigation.html&quot;&gt;Navigation&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;header.html&quot;&gt;Header&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;buttons.html&quot;&gt;Button Types&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;jumbotron.html&quot;&gt;Jumbotron&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;footer.html&quot;&gt;Footer&lt;/a&gt;&lt;/li&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;other.html&quot;&gt;Other&lt;/a&gt;&lt;/li&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
 &lt;/nav&gt;
-                        </pre>
-                    </div>    
-                    
-                    
-             <div>
-                <h2>CSS</h2>
-                <pre>
+    &lt;/div&gt;
+     </pre>
+       </code>
+        </div>
+
+        <div>
+          <h2>CSS</h2>
+          <code>
+          <pre>
+              * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 1200px;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 10px;
+}
+h3 {
+  color: white;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 5px;
+}
+
 #navtop {
-	width: 100%;
-	height: 70px;
-	background-color: #2d2f31;
+  width: 100%;
+  height: 70px;
+  background-color: #2d2f31;
 }
 
 /* Styles Desktop */
 
 #navtop label,
-#navtop input {display: none;}
-
-.slide li {  /* Styles liens desktop */
-	display: inline-block;
-	height: 70px;
-	width: 120px;
-	text-align: center;
-	padding-top: 25px;
+#navtop input {
+  display: none;
 }
 
-.slide li a {color: #eaeaea;} 
+.slide li {
+  /* Styles liens desktop */
+  display: inline-block;
+  height: 70px;
+  width: 120px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.slide li a {
+  color: #eaeaea;
+} /* Couleur liens desktop */
 
 /* Styles Mobile - > 750px - */
+
 @media (max-width: 750px) {
-	#navtop label,
-	#navtop input {display: block;}
-	
-	#navtop span { 	
-		height: 70px;
-		padding: 25px;
-		color: #eaeaea;
-		font-size: 1.2em;
-		display: block;
-	}
+  #navtop label,
+  #navtop input {
+    display: block;
+  }
 
-	#navtop span::after { 	
-		float: right;
-		right: 10%;
-		content: "+";
-	}
+  #navtop span {
+    height: 70px;
+    padding: 25px;
+    color: #eaeaea;
+    font-size: 1.2em;
+    display: block;
+  }
 
-	.slide {  			
-		clear:both;
-		background: #d9d9d9;
-		width:100%;
-		height:0px;
-		overflow: hidden;
-		text-align: center;
-		transition: height .3s ease;
-	}
+  #navtop span::after {
+    float: right;
+    right: 10%;
+    content: "+";
+  }
 
-	.slide li {			/* Styles liens mobile */
-		display: block; 
-		width: 100%;
-	}
+  .slide {
+    clear: both;
+    background: #d9d9d9;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height 0.3s ease;
+  }
 
-	.slide li a {color: #000000;}	/* Coulour liens mobile */
+  .slide li {
+    /* Styles liens mobile */
+    display: block;
+    width: 100%;
+  }
 
-	#touch {position: absolute; opacity: 0; height: 0px;}    	/* Checkbox invisble */
-	
-	#touch:checked + .slide {height: 420px;} /* Onclick : hauteur à définir en fonction du nombre de liens */ 
-	/*Buttons*/
-	 #buttons {
-		padding-top: 430px;
-	
-     }
-        
-      
-        
+  .slide li a {
+    color: #000000;
+  } /* Coulour liens mobile */
+
+  #touch {
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+  } /* Checkbox invisble */
+
+  #touch:checked + .slide {
+    height: 420px;
+  }
 }
-                    
-                </pre>
-            </div>
-                </nav> 
-            </div>
-            
-           
-                
-            
-           
-            
-            
-            
-           
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+              
+         </pre>
+       </code>
         </div>
+      </nav>
+    </div>
 
-    </body>
+</body>
+
 </html>
+</div>
+</nav>

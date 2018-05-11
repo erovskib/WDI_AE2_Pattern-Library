@@ -1,56 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Pattern Library </title>
-         <link rel="stylesheet" href="css/style.css" type="text/css" />
-    </head>
-    <body>
-        <div>
-            <h1> Pattern Library </h1>
-            <div>
-                <nav id="navtop">
 
-                    	<label for="touch"><span>Menu</span></label>               
-                    	<input type="checkbox" id="touch"> 
-                
-                    	<ul class="slide">
-                    	    <li><a href="navigation.html">Navigation</a></li>
-                    		<li><a href="header.html">Header</a></li>
-                    		<li><a href="buttons.html">Button Types</a></li>
-                    		<li><a href="jumbotron.html">Jumbotron</a></li>
-                    		<li><a href="footer.html">Footer</a></li></li>
-                    		<li><a href="other.html">Other</a></li></li>
-                    	</ul>
-                    	<p>This is a jumbotron</p>
-                 <div id="jumbopad"> 
-            <div class='jumbotron' id='jumbo1'>
-    		    <div class='container'>
-        			<h1>Sign Up Now</h1>
-        			<p>Sign up with your email to get out new updates</p>
-        			<a class='buttonj' href='#'>SIGN UP</a>
-		        </div>
-	        </div>
-          </div>
-                </nav> 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pattern Library </title>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <h1> Pattern Library </h1>
+    <div>
+      <nav id="navtop">
+
+        <label for="touch"><span>Menu</span></label>
+        <input type="checkbox" id="touch">
+
+        <ul class="slide">
+          <li><a href="navigation.html">Navigation</a></li>
+          <li><a href="header.html">Header</a></li>
+          <li><a href="buttons.html">Button Types</a></li>
+          <li><a href="jumbotron.html">Jumbotron</a></li>
+          <li><a href="footer.html">Footer</a></li>
+          </li>
+          <li><a href="other.html">Other</a></li>
+          </li>
+        </ul>
+        <h4>Jumbotron</h4>
+        <p>The jumbotrons is also called "call to action" in this case it calls the users to sing up for eaxample for a website</p>
+        <div id="jumbopad">
+          <div class='jumbotron' id='jumbo1'>
+            <div class='container'>
+              <h1>Sign Up Now</h1>
+              <p>Sign up with your email to get out new updates</p>
+              <a class='buttonj' href='#'>SIGN UP</a>
             </div>
-            
-                
-                
-        
-            
-           
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+          </div>
         </div>
 
-    </body>
+        <div>
+          <h2>HTML</h2>
+          <code>
+          <pre>
+            &lt;div id=&quot;jumbopad&quot;&gt; 
+                 &lt;div class='jumbotron' id='jumbo1'&gt;
+    		     &lt;div class='container'&gt;
+        			&lt;h1&gt;Sign Up Now&lt;/h1&gt;
+        			&lt;p&gt;Sign up with your email to get out new updates&lt;/p&gt;
+        			&lt;a class='buttonj' href='#'&gt;SIGN UP&lt;/a&gt;
+		        &lt;/div&gt;
+	        &lt;/div&gt;
+          &lt;/div&gt;
+         </pre>
+       </code>
+        </div>
+
+        <div>
+          <h2>CSS</h2>
+          <code>
+          <pre>
+/*This section consist the image properties*/
+#jumbo1 {
+  background: url("https://images.unsplash.com/
+  photo-1480506132288-68f7705954bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQ
+  iOjEyMDd9&s=fe27841e0f0f2922406eb0df58430433&auto=format&fit=crop&w=793&q=80")
+    center center no-repeat;
+  height: 350px;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#jumbo1 h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 60px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 50px;
+}
+
+#jumbo1 p {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+/*The button was created from the buttons section with little color changes*/
+.buttonj {
+  color: white;
+  border: 2px solid #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 30px;
+}
+.buttonj:hover {
+  background-color: white;
+  color: black;
+}
+         </pre>
+       </code>
+        </div>
+
+      </nav>
+    </div>
+
+  </div>
+
+</body>
+
 </html>

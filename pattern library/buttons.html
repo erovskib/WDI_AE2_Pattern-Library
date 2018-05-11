@@ -1,68 +1,272 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Pattern Library </title>
-         <link rel="stylesheet" href="css/style.css" type="text/css" />
-    </head>
-    <body>
-        <div>
-            <h1> Pattern Library </h1>
-            <div>
-                <nav id="navtop">
 
-                    	<label for="touch"><span>Menu</span></label>               
-                    	<input type="checkbox" id="touch"> 
-                
-                    	<ul class="slide">
-                    
-                    	    <li><a href="navigation.html">Navigation</a></li>
-                    		<li><a href="header.html">Header</a></li>
-                    		<li><a href="buttons.html">Button Types</a></li>
-                    		<li><a href="jumbotron.html">Jumbotron</a></li>
-                    		<li><a href="footer.html">Footer</a></li></li>
-                    		<li><a href="other.html">Other</a></li></li>
-                    	</ul>
-                
-                
-               
-            
-            
-                </nav> 
-            </div>
-            
-        
-                
-             <div id="buttons">
-                <p>This is button</p>
-                <button class="button1">Button</button>
-                <p>This is button</p>
-                <button class="button2 disabled" type="submit" >Submit button</button>
-                <p>This is button</p>
-                <a href="#" class="button3">Link button</a>
-                <p>This is button</p>
-                <input class="button4" type="button" value="Input button">
-                <p>This is button</p>
-                <input class="button5" type="submit" value="Input submit button">
-                <p>This is button</p>
-                <input class="button6" type="submit" value="Input submit button">
-                </div>
-            
-            
-            
-            
-           
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pattern Library </title>
+  <link rel="stylesheet" href="css/buttons.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    </body>
+</head>
+
+<body>
+  <div>
+    <h1> Pattern Library </h1>
+    <div>
+      <nav id="navtop">
+
+        <label for="touch"><span>Menu</span></label>
+        <input type="checkbox" id="touch">
+
+        <ul class="slide">
+
+          <li><a href="navigation.html">Navigation</a></li>
+          <li><a href="header.html">Header</a></li>
+          <li><a href="buttons.html">Button Types</a></li>
+          <li><a href="jumbotron.html">Jumbotron</a></li>
+          <li><a href="footer.html">Footer</a></li>
+          </li>
+          <li><a href="other.html">Other</a></li>
+          </li>
+        </ul>
+
+      </nav>
+    </div>
+    
+    <div id="buttons">
+       <h4>Buttons</h4>
+
+    <div>
+      <p>This library should be included in the heading for all of the buttons to work</p>
+      <code>
+          <pre>
+          &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;&gt;
+         </pre>
+       </code>
+    </div>  
+      <p>This is a sign up button or it can be use for accept functions</p>
+      <button class="button1">Sign Up/Accept</button>
+      <div>
+        <h2>HTML</h2>
+        <code>
+          <pre>
+ &lt;button class=&quot;button1&quot;&gt;Sign Up/Accept&lt;/button&gt;
+         </pre>
+       </code>
+      </div>
+      <div>
+        <h2>CSS</h2>
+        <code>
+          <pre>
+/*Login button*/
+
+.button1 {
+  background-color: #4995ab; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 30px;
+  width: 300px;
+}
+         </pre>
+       </code>
+      </div>
+      <p>This is a disabled button it can appear when the users have to complete a task in order to get access to this button</p>
+      <button class="button2 disabled" type="submit">Disabled</button>
+      <div>
+        <h2>HTML</h2>
+        <code>
+          <pre>
+&lt;button class=&quot;button2 disabled&quot; type=&quot;submit&quot; &gt;Disabled&lt;/button&gt;
+         </pre>
+       </code>
+      </div>
+      <div>
+        <h2>CSS</h2>
+        <code>
+          <pre>
+/*Disabled button*/
+.button2 {
+  background-color:  #4995ab; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 30px;
+   width: 250px;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+         </pre>
+       </code>
+      </div>
+
+      <p>Link button it can be used to link to other external websites</p>
+      <a href="#" class="button3">Link Button</a>
+      <div>
+        <h2>HTML</h2>
+        <code>
+          <pre>
+ &lt;a href=&quot;#&quot; class=&quot;button3&quot;&gt;Link Button&lt;/a&gt;
+         </pre>
+       </code>
+      </div>
+      <div>
+        <h2>CSS</h2>
+        <code>
+          <pre>
+/*Link button*/
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #2fe475;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   border-radius: 30px;
+   width: 250px;
+}
+
+.button3:hover {
+  background-color: #2fe475; /* Green */
+  border: none;
+  color: white;
+}
+
+
+         </pre>
+       </code>
+      </div>
+
+      <p>This is a loading button it indicates that the website is reponding to a request from the user</p>
+      <button class="button4">
+                <i class="fa fa-circle-o-notch fa-spin"></i>Loading
+                </button>
+      <div>
+        <h2>HTML</h2>
+        <code>
+          <pre>
+ &lt;button class=&quot;button4&quot;&gt;
+                &lt;i class=&quot;fa fa-circle-o-notch fa-spin&quot;&gt;&lt;/i&gt;Loading
+                &lt;/button&gt;
+         </pre>
+       </code>
+      </div>
+
+      <div>
+        <h2>CSS</h2>
+        <code>
+          <pre>
+/*Loading button*/
+.button4 {
+  background-color:  #4995ab; /* Blue */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  width: 250px;
+   border: none;
+}
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+}
+
+         </pre>
+       </code>
+      </div>
+
+      <p>Download button</p>
+      <button class="button5"><i class="fa fa-download"></i>Download</button>
+      <p>Color based button that indicates exit/cencel and other actions that the user can use if he wants to change his choice</p>
+      <div>
+        <h2>HTML</h2>
+        <code>
+          <pre>
+&lt;button class=&quot;button5&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt;Download&lt;/button&gt;
+         </pre>
+       </code>
+      </div>
+
+      <div>
+        <h2>CSS</h2>
+        <code>
+          <pre>
+/*Download button*/
+.button5 {
+    background-color:  #4995ab; /* Blue */
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+/* Darker background on mouse-over */
+.button5:hover {
+    background-color:  #4995ab; /* Blue */
+}
+
+         </pre>
+       </code>
+      </div>
+
+      <button class="button6">Log out/Cancel</button>
+    </div>
+
+    <div>
+      <h2>HTML</h2>
+      <code>
+          <pre>
+&lt;button class=&quot;button6&quot;&gt;Log out/Cancel&lt;/button&gt;
+         </pre>
+       </code>
+    </div>
+
+    <div>
+      <h2>CSS</h2>
+      <code>
+          <pre>
+.button6 {
+  background-color: #ce1c1c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 30px;
+  width: 300px;
+}
+
+         </pre>
+       </code>
+    </div>
+
+  </div>
+
+</body>
+
 </html>

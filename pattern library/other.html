@@ -1,50 +1,93 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Pattern Library </title>
-         <link rel="stylesheet" href="css/style.css" type="text/css" />
-    </head>
-    <body>
-        <div>
-            <h1> Pattern Library </h1>
-            <div>
-                <nav id="navtop">
 
-                    	<label for="touch"><span>Menu</span></label>               
-                    	<input type="checkbox" id="touch"> 
-                
-                    	<ul class="slide">
-                            <li><a href="navigation.html">Navigation</a></li>
-                    		<li><a href="header.html">Header</a></li>
-                    		<li><a href="buttons.html">Button Types</a></li>
-                    		<li><a href="jumbotron.html">Jumbotron</a></li>
-                    		<li><a href="footer.html">Footer</a></li></li>
-                    		<li><a href="other.html">Other</a></li></li>
-                    	</ul>
-                
-                </nav> 
-            </div>
-            
-           
-                
-            
-           
-            
-            
-            
-           
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pattern Library </title>
+  <link rel="stylesheet" href="css/pagi.css" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <h1> Pattern Library </h1>
+    <div>
+      <nav id="navtop">
+
+        <label for="touch"><span>Menu</span></label>
+        <input type="checkbox" id="touch">
+
+        <ul class="slide">
+          <li><a href="navigation.html">Navigation</a></li>
+          <li><a href="header.html">Header</a></li>
+          <li><a href="buttons.html">Button Types</a></li>
+          <li><a href="jumbotron.html">Jumbotron</a></li>
+          <li><a href="footer.html">Footer</a></li>
+          </li>
+          <li><a href="other.html">Other</a></li>
+          </li>
+        </ul>
+        <h4>Pagination</h4>
+        <P>Pagination should be used to allow users to scroll through pages of related content. An example of this would be big shoping sites, blog posts etc. </P>
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#">1</a>
+          <a class="active" href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&raquo;</a>
+        </div>
+        </br>
+        </br>
+        </br>
+        <div>
+          <h2>HTML</h2>
+          <code>
+          <pre>
+            &lt;div class=&quot;pagination&quot;&gt;
+                          &lt;a href=&quot;#&quot;&gt;&amp;laquo;&lt;/a&gt;
+                          &lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;
+                          &lt;a class=&quot;active&quot; href=&quot;#&quot;&gt;2&lt;/a&gt;
+                          &lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;
+                          &lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;
+                          &lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;
+                          &lt;a href=&quot;#&quot;&gt;6&lt;/a&gt;
+                          &lt;a href=&quot;#&quot;&gt;&amp;raquo;&lt;/a&gt;
+                        &lt;/div&gt;
+         </pre>
+       </code>
         </div>
 
-    </body>
+        <div>
+          <h2>CSS</h2>
+          <code>
+          <pre>
+/*Pagination*/
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 2px solid #4995ab;
+    
+}
+
+.pagination a.active {
+    background-color: #4995ab;;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #4995ab; color:white;}
+         </pre>
+       </code>
+        </div>
+      </nav>
+    </div>
+
+  </div>
+
+</body>
+
 </html>
