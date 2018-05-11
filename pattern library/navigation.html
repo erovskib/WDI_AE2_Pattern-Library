@@ -23,6 +23,101 @@
                     		<li><a href="other.html">Other</a></li></li>
                     	</ul>
                 <p>Resize the browser to test the navigation</p>
+               <div>
+                <h2>HTML</h2>
+                        <pre>
+&lt;nav id=&quot;navtop&quot;&gt;
+
+    &lt;label for=&quot;touch&quot;&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/label&gt;               
+	&lt;input type=&quot;checkbox&quot; id=&quot;touch&quot;&gt; 
+   	&lt;ul class=&quot;slide&quot;&gt;
+       &lt;li&gt;&lt;a href=&quot;navigation.html&quot;&gt;Navigation&lt;/a&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href=&quot;header.html&quot;&gt;Header&lt;/a&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href=&quot;buttons.html&quot;&gt;Button Types&lt;/a&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href=&quot;jumbotron.html&quot;&gt;Jumbotron&lt;/a&gt;&lt;/li&gt;
+	   &lt;li&gt;&lt;a href=&quot;footer.html&quot;&gt;Footer&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
+       &lt;li&gt;&lt;a href=&quot;other.html&quot;&gt;Other&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+                        </pre>
+                    </div>    
+                    
+                    
+             <div>
+                <h2>CSS</h2>
+                <pre>
+#navtop {
+	width: 100%;
+	height: 70px;
+	background-color: #2d2f31;
+}
+
+/* Styles Desktop */
+
+#navtop label,
+#navtop input {display: none;}
+
+.slide li {  /* Styles liens desktop */
+	display: inline-block;
+	height: 70px;
+	width: 120px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.slide li a {color: #eaeaea;} 
+
+/* Styles Mobile - > 750px - */
+@media (max-width: 750px) {
+	#navtop label,
+	#navtop input {display: block;}
+	
+	#navtop span { 	
+		height: 70px;
+		padding: 25px;
+		color: #eaeaea;
+		font-size: 1.2em;
+		display: block;
+	}
+
+	#navtop span::after { 	
+		float: right;
+		right: 10%;
+		content: "+";
+	}
+
+	.slide {  			
+		clear:both;
+		background: #d9d9d9;
+		width:100%;
+		height:0px;
+		overflow: hidden;
+		text-align: center;
+		transition: height .3s ease;
+	}
+
+	.slide li {			/* Styles liens mobile */
+		display: block; 
+		width: 100%;
+	}
+
+	.slide li a {color: #000000;}	/* Coulour liens mobile */
+
+	#touch {position: absolute; opacity: 0; height: 0px;}    	/* Checkbox invisble */
+	
+	#touch:checked + .slide {height: 420px;} /* Onclick : hauteur à définir en fonction du nombre de liens */ 
+	/*Buttons*/
+	 #buttons {
+		padding-top: 430px;
+	
+     }
+        
+      
+        
+}
+                    
+                </pre>
+            </div>
                 </nav> 
             </div>
             

@@ -81,6 +81,7 @@ h3 {color: white;}
         
 }
 
+
 /*Buttons*/
 
 .button1 {
@@ -172,7 +173,7 @@ h3 {color: white;}
  
 #jumbo1 {
 	background: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fe27841e0f0f2922406eb0df58430433&auto=format&fit=crop&w=793&q=80') center center no-repeat;
-	height: 330px;
+	height: 350px;
 	background-size: cover;
 	text-align: center;
 	margin: 0;
@@ -183,12 +184,13 @@ h3 {color: white;}
 	color: white;
 	font-size: 60px;
 	font-weight: 700;
-	margin-top: 105px;
+	margin-top: 60px;
 	text-transform: uppercase;
 	margin-bottom: 0;
 	margin-left: 0;
 	margin-right: 0;
-    padding-top: 110px;
+	padding-top: 50px;
+
 
 }
 
@@ -201,12 +203,12 @@ h3 {color: white;}
 	margin-right: 0;
 	margin-bottom: 20px;
 	margin-top: auto;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .buttonj {
 	color: white;
-    border: 3px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -217,23 +219,20 @@ h3 {color: white;}
 
 }
 .buttonj:hover {
-    background-color: #FFFFFF;
+    background-color: white;
     color: black;
 }
-.btnTop:hover {
-	color: black;
-	background: #ffa800;
-}
 
 
 
-header{
-  position: relative;
+
+#header{
+  position: fixed;
   width: 100%;
   text-align: center;
   font-size: 18px;
   height: 120px;
-  background: #9FF98A;
+  background: #2d2f31;
   color: #fff;
   display: block;
 }
@@ -337,3 +336,5 @@ footer > ul li .text {
         margin-right:5px;
     }
 }
+
+
